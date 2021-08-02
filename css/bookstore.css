@@ -15,6 +15,7 @@
 .nav-link{
     color: #f5deb3  !important;
 }
+
 /* form section css styles */
 
 .form-sec{
@@ -41,4 +42,10 @@
 .display{
     border: 2px solid black;
     background-color: antiquewhite;
+}
+
+/* footer section */
+.footer{
+    background-color:#0A1F57 ;
+    color: #f5deb3;
 }
