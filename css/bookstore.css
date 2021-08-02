@@ -48,4 +48,10 @@
 .footer{
     background-color:#0A1F57 ;
     color: #f5deb3;
+    padding-left: 10%;
+    text-align: center;
+}
+
+#fnote{
+    text-align: center;
 }
