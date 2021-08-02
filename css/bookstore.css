@@ -5,6 +5,16 @@
    background-size: cover;
    background-position: center;
 }
+.nav-bar{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #0A1F57;
+    
+    
+}
+.nav-link{
+    color: #f5deb3  !important;
+}
 .form-sec{
     justify-content: space-evenly;
 }
