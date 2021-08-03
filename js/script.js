@@ -61,6 +61,8 @@ $(document).ready(function(){
         $('.book4').css('background','')
         $('#img4').show()
         $('.hide4').hide()
+        
+
        
     })
     

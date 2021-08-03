@@ -28,6 +28,29 @@ body{
 
 /* End of Carousel css */
 
+/* Why us section start here */
+.whyus{
+  background-color: #0a1f57;
+  color: white;
+  text-align: center;
+}
+.cont{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#whyus{
+  padding: 20px;
+ text-align: center; 
+}
+#whyimg{
+  border-radius: 50%;
+  border: solid white 2px;
+}
+.clm2{
+  background-image: url(../assets/image3.jpeg);
+  
+}
+
 /* About us styling */
 .aboutus{
   margin: 76px 100px 0px 50px;
@@ -45,12 +68,13 @@ body{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.container h2,p,h4{
+#cnt{
   text-align: center;
 }
 .book1 .book2 .book3 .book4{
   border: solid 2px black;
 }
+
 /* Book 1 */
 .book1{
   background-repeat: no-repeat;
@@ -133,7 +157,6 @@ body{
 
 /* footer styling start here */
 footer{
-    margin-top: 76px;
     text-align: center;
     background-color: #010857;
     color: wheat;
