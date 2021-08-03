@@ -17,13 +17,29 @@ body{
   nav{
       background-color: #0a1f57;
       
+
+      
   }
+
  /* End of header css */
 
 /* Carousel css */
 
 
 /* End of Carousel css */
+
+/* About us styling */
+.aboutus{
+  margin: 76px 100px 0px 50px;
+  
+}
+.abt1{
+  background-image: url(../assets/image1.jpeg);
+  background-position: center;
+}
+.abt2{
+  padding-right: 50px;
+}
 
 /* footer styling start here */
 footer{
