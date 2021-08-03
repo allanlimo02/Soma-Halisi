@@ -12,4 +12,7 @@
   nav{
       background-color: #0A1F57;
   }
-  /* End of header css */
+  footer{
+    background-color: #0A1F57;
+    color: white;
+  }
