@@ -17,6 +17,7 @@ h4{
     background-color:rgb(25, 177, 228);
     color: white;
     opacity: 0.7;
+    border-radius: 10px;
 }
 #img1{
     border-radius:10px;
