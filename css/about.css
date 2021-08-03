@@ -1,11 +1,41 @@
-#footer{
+
+
+h2{
+    text-align: center;
+    border-bottom: dashed red;
+    margin: 3%;
+}
+h4{
+    color:rgb(22, 175, 226);
+}
+#whatpara{
+    font-family:cursive;
+    font-size: 22px;
+    font-weight: 500;
+}
+#img1{
+    border-radius:10px;
+}
+#whatpara::first-letter{
+    color: white;
+    background-color:rgb(48, 17, 17);
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 red;
+    font-size: 250%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+}
+
+footer{
     background-color: #0A1F57;
     text-align: center;
     color: wheat;
+    margin-top: 76px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 #fnote{
     text-align: center;
-    font-size: xx-large;
+    font-size: 22px;
 }
