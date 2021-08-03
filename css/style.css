@@ -40,6 +40,96 @@ body{
 .abt2{
   padding-right: 50px;
 }
+/* Book section */
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container h2,p,h4{
+  text-align: center;
+}
+.book1 .book2 .book3 .book4{
+  border: solid 2px black;
+}
+/* Book 1 */
+.book1{
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  border-radius: 10px;
+}
+#stars{
+  font-size: 28px;
+  color: yellow;
+}
+/* Book 2 */
+.book2{
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: transparent;
+  border-radius: 10px;
+}
+#stars{
+  font-size: 28px;
+  color: yellow;
+}
+/* Book 3 */
+.book3{
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: transparent;
+  border-radius: 10px;
+}
+#stars{
+  font-size: 28px;
+  color: yellow;
+}
+/* Book 4 */
+.book4{
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: transparent;
+  border-radius: 10px;
+}
+#stars{
+  font-size: 28px;
+  color: yellow;
+}
+
+/* Button styling */
+.buy{
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px; 
+  margin-left: 40px;
+}
+.buy:hover{
+  background-color: green;
+  color: green;
+
+}
+
+/* Review section */
+.review{
+  text-align: center;
+  background-image: url(../assets/photo-1463320726281-696a485928c7.jpeg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.rev-main{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 90, 0.6);
+}
+#cimage{
+  border-radius: 50%;
+  border: solid 2px white;
+}
 
 /* footer styling start here */
 footer{
