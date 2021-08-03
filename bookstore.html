@@ -8,23 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bookstore.css">
     <script src="/js/jquery-3.6.0.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="/js/bookstore.js"></script>
     <title>bookstore</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="contain">
+        <div class="mainer">
+            
         <div class="row header-p">
-        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Assumenda velit magni vitae minima dolorum dolores architecto ea laborum odit 
-            excepturi quas similique aut, a deserunt eius nihil dignissimos sit officiis.</h5>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda velit magni vitae minima dolorum dolores architecto ea laborum odit
+                excepturi quas similique aut, a deserunt eius nihil dignissimos sit officiis.</h5>
         </div>
         <!-- Start of header section -->
-        <nav class="navbar navbar-expand-lg  navbar-dark py-3 fixed-top">
+        <!-- <nav class="navbar navbar-expand-lg  navbar-dark py-3 fixed-top">
             <a href="#" class="navbar-brand navlink">Soma Halisi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -42,83 +45,101 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
 
         <!-- form section -->
-        <div class="row form-sec">
-            <div class="col-4 form-sec">
-                <form action="" class="user-form">
-                    Publishers:
-                    <select name="" id="form-select">
-                        <option value="" disabled selected hidden>Please Select Publisher</option>
-                        <option value="0">Longhorn Kenya Ltd</option>
-                        <option value="1">East African Educational Publishers</option>
-                        <option value="2">WordAlive Publishers Limited</option>
-                        <option value="3">kenya literature bureau</option>
-                    </select> <br><br>
+        <div class="container">
+            <div class="row mainrow">
+                <div class="col-md-6 tab1">
+                    <!-- Start of form -->
+                    <form>
+                        <!-- Name -->
+                        <label class="col-sm-2 col-form-label" for="">Your Name:</label>
+                        <input type="text" id="uname" class="form-control" placeholder="Input your name"><br><br>
+                        <!-- Publisher -->
+                        <label class="col-sm-2 col-form-label" for="">Publishers:</label>
+                        <select name="" class="form-select" id="publisher">
+                            <option value="" disabled selected hidden>Please Select Publisher</option>
+                            <option value="0">Longhorn Kenya Ltd</option>
+                            <option value="1">East African Educational Publishers</option>
+                            <option value="2">WordAlive Publishers Limited</option>
+                            <option value="3">kenya literature bureau</option>
+                        </select> 
+                        <!-- button -->
+                        <br><br>
 
-                    <button type="button" class="btn btn-secondary">View Books</button> <br> <br>
-
-                    Books:
-                    <select name="" id="form2-select">
-                        <option value="" disabled selected hidden>Please select Book</option>
-                        <option value="">Literary Genres</option>
-                        <option value="">journals</option>
-                        <option value="">magazines</option>
-                        <option value="">newspapers</option>
-
-                    </select> <br> <br>
-                    Location:
-                    <select name="" id="form2-select">
-                        <option value="" disabled selected hidden>Please Choose Location</option>
-                        <option value="">Nairobi</option>
-                        <option value="">Mombasa</option>
-                        <option value="">Nakuru</option>
-                        <option value="">Kericho</option>
-                        <option value="">Eldoret</option>
-                        <option value="">Nyeri</option>
-
-                    </select>
-                </form>
-
-            </div>
-            <div class="col-4 display">
-                <h3><span>Books</span></h3>
-                <hr>
-                <h4>Genre books</h4>
-                <h4>journals</h4>
-                <h4>magazines</h4>
-                <h4>newspapers</h4>
+                    <button type="button" id="btnmain" class="btn btn-secondary">View Books</button> <br> <br>
+                        <!-- Books -->
+                      <div class="formcont" style="display: none;">
+                        <label class="col-sm-2 col-form-label" for=""> Books: </label>
+                        <select name="" class="form-select" id="book">
+                            <option value="" disabled selected hidden>Please select Book</option>
+                            <option value="0">Literary Genres</option>
+                            <option value="1">journals</option>
+                            <option value="2">magazines</option>
+                            <option value="3">newspapers</option>
+    
+                        </select> <br> <br>
+                        <!-- LOcation -->
+                        <label class="col-sm-2 col-form-label" for="">Location: </label>
+                        <select name="" class="form-select" id="location">
+                            <option value="" disabled selected hidden>Please Choose Location</option>
+                            <option value="0">Nairobi</option>
+                            <option value="1">Mombasa</option>
+                            <option value="2">Nakuru</option>
+                            <option value="3">Kericho</option>
+                            <option value="4">Eldoret</option>
+                            <option value="5">Nyeri</option>
+    
+                        </select><br><br>
+                        <a href="#" id="checkvend" class="btn-primary btn" onclick="details()"> Check Verified vendors</a>
+                      </div>
+                     
+                      <!-- <button style="display: none;" type="submit" class="btn btn-info" onclick="returnDetails()">Request Book</button> -->
+                    </form>
+                </div>
+                <div class="col-md-6 tab2">
+                   <p id="outputName"></p>
+                   <p id="outputtown"></p>
+                   <p id="outputpublisher"></p>
+                   <p id="outputgenre"></p>
+                   <p id="listofshops"></p>
 
                 <h3><span id="location">Location</span></h3>
                 <hr>
 
-
+                </div>
             </div>
+
+
         </div>
+
+        
         <!-- image and description section -->
         <div class="row ">
             <div id="carouselExampleControls" class="carousel slide images" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active book-image ">
-                    <img src="assets/pupils.jpg" class="d-block w-100" alt="image">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/image1.jpeg" class="d-block w-100" alt="image">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/image3.jpeg" class="d-block w-100" alt="image">
-                  </div>
+                    <div class="carousel-item active book-image ">
+                        <img src="assets/pupils.jpg" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image1.jpeg" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image3.jpeg" class="d-block w-100" alt="image">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </div>
 
 
@@ -155,6 +176,7 @@
             </div>
 
         </footer>
+        </div>
     </div>
 </body>
 

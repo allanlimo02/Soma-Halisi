@@ -1,21 +1,20 @@
-.container{
+body{
+    overflow-x: hidden;
+}
+.contain{
    background: url(../assets/photo-1463320726281-696a485928c7.jpeg);
-   background:bg(0, 0, 50, 0.3); 
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
    background-position: center;
    font-family: 'Gowun Batang', serif; /*Gowun Batang */
 }
+.mainer{
+    background:rgba(0, 0, 50, 0.7); 
+}
 .header-p{
    color: #ffffff; 
 }
-/* start of Header css */
-/* #map {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  } */
   @media (min-width: 768px) {
     .news-input {
       width: 50%;
@@ -31,35 +30,23 @@
 
 /* form section css styles */
 
-.form-sec{
-    border: 2px solid gray;
-    padding-bottom: 7%;
-    margin-top:2%;
-    justify-content: space-evenly;
-    padding-top: 3%;
-}
-.user-form{
-    color:#ffffff;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50%;
-    width: 80%;
-    
+.mainrow{
+    padding-bottom: 50px;
     
 }
- select{
-    width: 50%;
-    
-    
+.tab1{
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 20px 0px 20px 10px;
+}
+.tab2{
+    color: white;
+    padding: 20px 0px 20px 10px;   
+}
+label{
+    color: white;
+}
 
-}
-.display{
-    border: 2px solid #808080;
-    background-color: transparent;
-    margin-top:2%;
-    color:#ffffff;
-}
 .images{
     margin-right: auto;
     margin-left: auto;
