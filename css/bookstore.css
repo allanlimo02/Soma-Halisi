@@ -13,7 +13,11 @@ body{
     background:rgba(0, 0, 50, 0.7); 
 }
 .header-p{
+    padding-top: 100px;
    color: #ffffff; 
+}
+ul li {
+    padding-right:50px;
 }
   @media (min-width: 768px) {
     .news-input {
