@@ -1,7 +1,7 @@
 /* start of Header css */
 body{
   overflow-x: hidden;
-  font-family: poppins;
+  font-family: Poppins;
 }
 #map {
     width: 100%;
@@ -43,4 +43,9 @@ ul li {
 }
 .navlink{
   color: #F5DEB3 !important;
+}
+input[type=text],input[type=email]{
+  width: 40%;
+  border-radius: 10%;
+ 
 }
