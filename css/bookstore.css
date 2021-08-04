@@ -30,6 +30,7 @@ ul li {
   }
   .navlink{
     color: #f5deb3 !important;
+    padding-left: 20px;
   }
 
 /* form section css styles */
@@ -71,7 +72,21 @@ label{
     padding: 20px 0px 20px 10px;   
     font-size: 20px;
 }
-
+.outputdet{
+    height: 180px;
+}
+.shops{
+    border: solid white 2px;
+    border-radius: 20px;
+    height: 230px;
+    padding-left: 20px;
+    color: green;
+    font-weight: 700;
+    
+}
+.addheigth{
+    height: 40px;
+}
 /* Error messages */
 .error{
     color: red;

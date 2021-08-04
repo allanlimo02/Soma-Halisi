@@ -89,7 +89,6 @@ CheckBooks.prototype.gPublisher=function(){
 
 $(document).ready(function(){
     $("#checkvend").click(function(event){
-        //event.preventDefault();
         var uName=document.getElementById("uname").value;
         var publisher1=document.getElementById("publisher").value;
         var book2=document.getElementById("book").value;
@@ -142,10 +141,7 @@ $(document).ready(function(){
             alert('Kindly  select location')
             return false
         }
-        
-        //console.log('Form filled corectly')
-
-        
+                
         
         $('#myForm').submit(function(event){
             $("#outputName").text('Dear '+uName);
@@ -153,9 +149,9 @@ $(document).ready(function(){
             $("#outputtown").text('You have selected '+location3+ "  town as your current location");
             $("#outputgenre").text('You have also selected '+book2);
             $("#listofshops").text('We have the following shops in '+location3);
-            $("#shop1").text(newLoc.shop1);
-            $("#shop2").text(newLoc.shop2);
-            $("#shop3").text(newLoc.shop3);
+            $("#shop1").text("1: "+newLoc.shop1);
+            $("#shop2").text("2: "+newLoc.shop2);
+            $("#shop3").text("3: "+newLoc.shop3);
             event.preventDefault();
         })
     });
