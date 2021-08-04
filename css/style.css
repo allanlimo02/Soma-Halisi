@@ -1,17 +1,220 @@
-
-
-
-
-
-/* footer styling start here */
-footer{
-    text-align: center;
-    background-color: #010857;
-    color: wheat;
-    padding-top: 40px;
-    padding-bottom: 40px;
+body {
+  overflow-x: hidden;
+  margin-top: 110px;
+  font-family: poppins;
 }
-#fnote{
-    font-size: 22px;
-    color: white;
+
+/* start of Header css */
+
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+@media (max-width:600px) {
+  .d-block{
+    height: 400px;
+  }
+}
+
+nav {
+  background-color: #0a1f57;
+  padding: 0;
+
+
+
+}
+
+/* End of header css */
+
+/* Carousel css */
+
+.stxt{
+  color: white;
+  font-size: 50px;
+  
+}
+.sltetx{
+  color: red;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+}
+/* End of Carousel css */
+
+/* Why us section start here */
+.whyus {
+  background-color: #0a1f57;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cont {
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+#whyus {
+  padding: 20px;
+  text-align: center;
+}
+
+#whyimg {
+  border-radius: 50%;
+  border: solid white 2px;
+}
+
+.clm2 {
+  background-image: url(../assets/image3.jpeg);
+
+}
+
+/* About us styling */
+.aboutus {
+  margin-right: 100px;
+  margin-top: 10px;
+ 
+
+}
+
+.abt1 {
+  background-image: url(../assets/image1.jpeg);
+  background-position: center;
+}
+
+.abt2 {
+  padding-right: 50px;
+}
+
+/* Book section */
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#cnt {
+  text-align: center;
+}
+
+.book1 .book2 .book3 .book4 {
+  border: solid 2px black;
+}
+
+/* Book 1 */
+.book1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  border-radius: 10px;
+}
+
+#stars {
+  font-size: 28px;
+  color: yellow;
+}
+
+/* Book 2 */
+.book2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  border-radius: 10px;
+}
+
+#stars {
+  font-size: 28px;
+  color: yellow;
+}
+
+/* Book 3 */
+.book3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  border-radius: 10px;
+}
+
+#stars {
+  font-size: 28px;
+  color: yellow;
+}
+
+/* Book 4 */
+.book4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  border-radius: 10px;
+}
+
+#stars {
+  font-size: 28px;
+  color: yellow;
+}
+
+/* Button styling */
+.buy {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.buy:hover {
+  background-color: green;
+  color: green;
+
+}
+
+/* Review section */
+.review {
+  text-align: center;
+  background-image: url(../assets/photo-1463320726281-696a485928c7.jpeg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.rev-main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 90, 0.6);
+}
+
+#cimage {
+  border-radius: 50%;
+  border: solid 2px white;
+}
+/* Newsletter */
+.newslater{
+  text-align: center;
+  padding: 60px;
+}
+.newslater h1{
+  padding-bottom: 30px;
+}
+#email{
+  width: 30%;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+/* footer styling start here */
+footer {
+  text-align: center;
+  background-color: #010857;
+  color: wheat;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#fnote {
+  font-size: 22px;
+  color: white;
 }

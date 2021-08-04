@@ -6,15 +6,284 @@
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soma - Halisi</title>
 </head>
 <body>
     <!-- Start of header section -->
-    
+     <nav class="navbar navbar-expand-lg  navbar-dark  fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Soma Halisi</a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#learn" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#questions" class="nav-link">Bookshop</a>
+              </li>
+              <li class="nav-item">
+                <a href="#instructors" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
     <!-- End of header section -->
 
+    <!-- Start oc carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/slider1.jpg" class="d-block w-100" height="780px" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="stxt">WELCOME TO SOMA HALISI</h1>
+            <p class="sltetx">  Leading site that links you to your trusted book plug!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/slider2.png" class="d-block w-100" height="780px" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="stxt">Quality is our Language</h1>
+            <p class="sltetx">Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/slider3.jpg" class="d-block w-100" height="780px" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="stxt">Convinience is our Style</h1>
+            <p class="sltetx">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of carousel -->
+
+    <!-- About us section -->
+      <div class="aboutus">
+        <div class="row">
+          <div class="col-md-6 abt1">
+            <div style="height: 300px;"></div>
+          
+          </div>
+          <div class="col-md-6 abt2">
+            <h2>About Soma Halisi</h2>
+            <p style="text-align: left;">For a long period of time, consumers have been buying counterfeit books from
+               random distributors. These books are not sourced directly from the publishers.
+                This normally reduces the income of both the publishers and the authors. Also,
+                 most of these books are substandard, in that, they might have several pages missing,
+                  and also they are not durable due to the type of materials used to make plagiarized books.
+            </p>
+            <p style="text-align: left;">
+              If this stated problem is not solved, the plagiarism will affect both the Authors, publishers and 
+              consumers. The authors will have reduced income because we shall have so many pirated versions of 
+              the same book in the market. Publishers will lose trust from the consumers, due to the poor quality
+               of books available in the market. They will also lose revenue, due to the availability of cheap books 
+               of the same version in the market. Consumers on the other hand will be victims of substandard books
+                and hence losing money to pirated books. 
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Why choose us -->
+      <div class="whyus">
+      <div class="cont">
+        <h2 id="whyus">Why choose Us</h2>
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-md-6">
+            <div class="whytxt1">
+              <!-- Reason 1 -->
+              <img id="whyimg" src="./assets/why-choose-us-handshake.png" alt="">
+              <h5>Our Relationships</h5>
+              <p>
+                Throughout the years we have developed great
+                 long-term relationships with many of our customers.
+                  We are humbled and honoured by this and will endeavour
+                   to create that kind of trust with each of our customers.
+              </p>
+              <!-- Reason 2 -->
+              <img id="whyimg" src="./assets/why-choose-us-delivery.png" alt="">
+              <h5>Next Day Delivery</h5>
+              <p>
+                Need your books quickly? No Problem! Free next day delivery service 
+                available on all stock items on orders over £50, when ordered before 4pm
+              </p>
+              <!-- reason 3 -->
+              <img id="whyimg" src="./assets/why-choose-us-customer-care.png" alt="">
+              <h5>Active customer care</h5>
+              <p>
+                Our staff are here year round to help you with any query, we can place orders 
+                for you, find your titles, build collections or come and see you to demonstrate
+                 any of our services on the website or our VLebooks platform
+              </p>
+             
+            </div>
+            
+
+
+          </div>
+          <!-- column 2 -->
+          <div class="col-md-6 clm2">
+
+          </div>
+         
+        </div>
+      </div>
+      </div>
+    <!-- Top book section -->
+    <div class="container contain">
+      <h2 id="cnt">THE BOOK GUIDE ONLINE BOOK STORE</h2>
+      <p id="cnt">
+        We’re breaking new ground in online bookselling.
+         We believe that education and access to books are basic human rights. 
+         That's why books sold <br> on BetterWorldBooks.com help fund high-impact 
+         literacy projects in Kenya and around the world.
+      </p>
+
+      <div class="row">
+        <!-- Book 1 -->
+        <div class="col-md-3 book1">
+          <img src="./assets/book2.png" width="300px" id="img1" alt="">
+         <div class="hide1" style="display: none;">
+          <br><br>
+          <h4>Broken Visions Jessica</h4>
+          <p id="stars">☆☆☆☆☆</p><br>
+          <p>Jessica Sorensen</p><br>
+          <h3 style="text-align: center;">Ksh: 899</h3><br>
+          <br><br>
+          <button class="buy"> Buy this book Now</button><br><br><br>
+         </div>
+        </div>
+        <!-- Book 2 -->
+        <div class="col-md-3 book2">
+            <img src="./assets/book3.png" width="300px" id="img2" alt="">
+           <div class="hide2" style="display: none;">
+            <br><br>
+            <h4>Art History Mystery</h4>
+            <p id="stars">☆☆☆☆☆</p><br>
+            <p>R.L Naquin</p><br>
+            <h3 style="text-align: center;">Ksh: 1249</h3><br>
+            <br><br>
+            <button class="buy"> Buy this book Now</button><br><br><br>
+           </div>
+          </div>
+        <!-- book 3 -->
+        <div class="col-md-3 book3">
+          <img src="./assets/book6.png" width="300px" id="img3" alt="">
+          <div class="hide3" style="display: none;">
+           <br><br>
+           <h4>Mad About the Boy</h4>
+           <p id="stars">☆☆☆☆☆</p><br>
+           <p>Helen Fielding</p><br>
+           <h3 style="text-align: center;">Ksh: 754</h3><br>
+           <br><br>
+           <button class="buy"> Buy this book Now</button><br><br><br>
+          </div>
+        </div>
+        <!-- book 4 -->
+        <div class="col-md-3 book4">
+          <img src="./assets/book8.png" width="300px" id="img4" alt="">
+          <div class="hide4" style="display: none;">
+           <br><br>
+           <h4>Mad About the Boy</h4>
+           <p id="stars">☆☆☆☆☆</p><br>
+           <p>Helen Fielding</p><br>
+           <h3 style="text-align: center;">Ksh: 1754</h3><br>
+           <br><br>
+           
+           <button class="buy"> Buy this book Now</button><br><br><br>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- Clients review -->
+    <div class="review">
+      <div class=" rev-main" >
+        <h2>WHAT OUR CLIENT SAY ABOUT US</h2>
+        <br><br><br>
+        <div class="row">
+          <!-- Clent 1 -->
+          <div class="col-md-4">
+            <img src="./assets/client1.jpeg" height="250px" id="cimage" width="250px" alt=""><br><br>
+            <h4>Ronald Ojino</h4><br>
+            <h6>Lecturer - Cooperative UNiversity</h6>
+            <p>
+             <i>
+              “Thank you for all your help and assistance over the years! 
+              I would have no hesitation in recommending you to my friends.”
+             </i>
+            </p>
+          </div>
+          <!-- client 2 -->
+          <div class="col-md-4">
+            <img src="./assets/chemwolo.jpeg" height="250px" id="cimage" width="250px" alt=""><br><br>
+            <h4>Aron Chemwolo</h4><br>
+            <h6>Principal  - Paul-Boit High School</h6>
+            <p>
+             <i>
+              Now two or three times a year (especially after Christmas) my family shops on the Book Library – it’s a tradition!”
+             </i>
+            </p>
+          </div>
+          <!-- Client 3 -->
+          <div class="col-md-4">
+            <img src="./assets/kins.jpeg" height="250px" id="cimage" width="250px" alt=""><br><br>
+            <h4>Mercy Kinyua</h4><br>
+            <h6>Dirctor - Mekaki Safaris</h6>
+            <p>
+             <i>“I found what I needed and the prices are super low, and the books arrived in a
+                timely manner. Keep up the great work!”
+             </i>
+            </p>
+          </div>
+
+        </div>
+       </div>
+
+    </div>
+
+    <div>
+      
+    </div>
+    <!-- News latter -->
+    <div class="newslater">
+      <h1>Subscribe to our Newsletter</h1>
+      <input type="text" class="" id="email">
+      <button class="btn btn-danger"  type="submit">Subscribe!</button>
+
+    </div>
     <!-- Footer starts here -->
     <footer>
         <div class="row">
@@ -44,5 +313,6 @@
         </div>
         <p id="fnote">©2021</p>
     </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

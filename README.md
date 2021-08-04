@@ -1,21 +1,44 @@
 # SOMA HALISI
-#### A web based app to help us link publishers, authors and book distributors to their pottential consumers
-#### By ** * Allan Limo * Benjamin Kipkorir * Edwin Kolem * Caleb Kipngetich **
-## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+## About
+ A web based app to help us link publishers, authors and book distributors to their pottential consumers
+#### By 
+ * <a href="https://github.com/allanlimo02" target="_blank">Allan Limo  </a>
+  * <a href="https://github.com/Kipkorir2017" target="_blank">Benjamin Kipkorir </a>
+  * <a href="https://github.com/edwinkipchumba" target="_blank">Edwin Kolem </a>
+  * <a href="https://github.com/Calebu6214" target="_blank">Caleb Kipngetich </a>
+
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+To have this project running in your local machine, ensure you have the following:
+* Functioning internet.
+* Your preffered code editor
+* Your preffered web browser.(Preffered Google chrome)
+### To have it running:
+* Open the working folder that you want your project to be located
+```
+clone this repository using git clone https://github.com/allanlimo02/Soma-Halisi 
+ ```
+* start working on your project.
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+So far we have tackled most of the issues that we had experiences during development. You are allowed to add more functionality to it.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+In this project, we used the following technologies:
+* HTML
+* Css
+* Javascript
+* Bootstrap
+* Jquerry
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+Incase you need help in this project, kindly contact the developers via:
+* Allanlimo02@gmail.com
+* edwinkolem5@gmail.com
+* calebkimutai97@gmail.com 
+* tonuikipkorir1@gmail.com
+
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+[MIT License](https://choosealicense.com/licenses/mit/) ©2021
+
+1. Allan Limo
+2. Edwin Kolem
+3. Benjamin Korir
+4. Caleb Kipngetich
+
