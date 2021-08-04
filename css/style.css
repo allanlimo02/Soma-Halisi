@@ -1,142 +1,169 @@
-body{
+body {
   overflow-x: hidden;
+  margin-top: 110px;
 }
 
 /* start of Header css */
-#map {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
-  
-  @media (min-width: 768px) {
-    .news-input {
-      width: 50%;
-    }
-  }
-  nav{
-      background-color: #0a1f57;
-      
 
-      
-  }
 
- /* End of header css */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+@media (max-width:600px) {
+  .d-block{
+    height: 400px;
+  }
+}
+
+nav {
+  background-color: #0a1f57;
+  padding: 0;
+
+
+
+}
+
+/* End of header css */
 
 /* Carousel css */
 
-
+.stxt{
+  color: white;
+  font-size: 50px;
+  
+}
 /* End of Carousel css */
 
 /* Why us section start here */
-.whyus{
+.whyus {
   background-color: #0a1f57;
   color: white;
   text-align: center;
 }
-.cont{
-  margin-right: 30px;
+
+.cont {
+  margin-right: 0px;
   margin-left: 30px;
 }
-#whyus{
+
+#whyus {
   padding: 20px;
- text-align: center; 
+  text-align: center;
 }
-#whyimg{
+
+#whyimg {
   border-radius: 50%;
   border: solid white 2px;
 }
-.clm2{
+
+.clm2 {
   background-image: url(../assets/image3.jpeg);
-  
+
 }
 
 /* About us styling */
-.aboutus{
-  margin: 76px 100px 0px 50px;
-  
+.aboutus {
+  margin-right: 100px;
+  margin-top: 10px;
+ 
+
 }
-.abt1{
+
+.abt1 {
   background-image: url(../assets/image1.jpeg);
   background-position: center;
 }
-.abt2{
+
+.abt2 {
   padding-right: 50px;
 }
+
 /* Book section */
-.container{
+.container {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-#cnt{
+
+#cnt {
   text-align: center;
 }
-.book1 .book2 .book3 .book4{
+
+.book1 .book2 .book3 .book4 {
   border: solid 2px black;
 }
 
 /* Book 1 */
-.book1{
+.book1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: transparent;
   border-radius: 10px;
 }
-#stars{
+
+#stars {
   font-size: 28px;
   color: yellow;
 }
+
 /* Book 2 */
-.book2{
+.book2 {
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   color: transparent;
   border-radius: 10px;
 }
-#stars{
+
+#stars {
   font-size: 28px;
   color: yellow;
 }
+
 /* Book 3 */
-.book3{
+.book3 {
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   color: transparent;
   border-radius: 10px;
 }
-#stars{
+
+#stars {
   font-size: 28px;
   color: yellow;
 }
+
 /* Book 4 */
-.book4{
+.book4 {
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   color: transparent;
   border-radius: 10px;
 }
-#stars{
+
+#stars {
   font-size: 28px;
   color: yellow;
 }
 
 /* Button styling */
-.buy{
+.buy {
   background-color: transparent;
   border: solid 2px white;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
-  font-size: 20px; 
+  font-size: 20px;
   margin-left: 40px;
 }
-.buy:hover{
+
+.buy:hover {
   background-color: green;
   color: green;
 
 }
 
 /* Review section */
-.review{
+.review {
   text-align: center;
   background-image: url(../assets/photo-1463320726281-696a485928c7.jpeg);
   color: white;
@@ -145,25 +172,28 @@ body{
   background-position: center;
 
 }
-.rev-main{
+
+.rev-main {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: rgba(0, 0, 90, 0.6);
 }
-#cimage{
+
+#cimage {
   border-radius: 50%;
   border: solid 2px white;
 }
 
 /* footer styling start here */
-footer{
-    text-align: center;
-    background-color: #010857;
-    color: wheat;
-    padding-top: 40px;
-    padding-bottom: 40px;
+footer {
+  text-align: center;
+  background-color: #010857;
+  color: wheat;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-#fnote{
-    font-size: 22px;
-    color: white;
+
+#fnote {
+  font-size: 22px;
+  color: white;
 }
