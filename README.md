@@ -5,7 +5,7 @@
  * <a href="https://github.com/allanlimo02" target="_blank">Allan Limo  </a>
   * <a href="https://github.com/Kipkorir2017" target="_blank">Benjamin Kipkorir </a>
   * <a href="https://github.com/edwinkipchumba" target="_blank">Edwin Kolem </a>
-  * <a href="https://github.com/Calebu6214" target="_blank">Caleb Kipngetich </a>
+  * <a href="https://github.com/Calebu6214" target="_blank">Caleb Kipngetich. </a>
 
 ## Setup/Installation Requirements
 To have this project running in your local machine, ensure you have the following:
