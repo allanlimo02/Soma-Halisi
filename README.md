@@ -1,12 +1,12 @@
 # SOMA HALISI
-#### A web based app to help us link publishers, authors and book distributors to their pottential consumers
+## About
+ A web based app to help us link publishers, authors and book distributors to their pottential consumers
 #### By 
  * <a href="https://github.com/allanlimo02" target="_blank">Allan Limo  </a>
   * <a href="https://github.com/Kipkorir2017" target="_blank">Benjamin Kipkorir </a>
   * <a href="https://github.com/edwinkipchumba" target="_blank">Edwin Kolem </a>
   * <a href="https://github.com/Calebu6214" target="_blank">Caleb Kipngetich </a>
-## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+
 ## Setup/Installation Requirements
 To have this project running in your local machine, ensure you have the following:
 * Functioning internet.
