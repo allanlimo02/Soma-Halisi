@@ -129,16 +129,21 @@ $(document).ready(function(){
         $('#error1').hide()
         if(publisher1==''){
             $('#error2').show()
+            return false
         }else
         $('#error2').hide()
         if(book2==''){
             $('#error3').show()
+            return false
         }else
         $('#error3').hide()
+        
         if(location3==''){
-            $('#error4').show()
-        }else
-            
+            alert('Kindly  select location')
+            return false
+        }
+        
+        //console.log('Form filled corectly')
 
         
         

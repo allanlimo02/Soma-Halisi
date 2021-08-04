@@ -43,10 +43,7 @@ ul li {
     border-radius: 10px;
     padding: 20px 0px 20px 10px;
 }
-.tab2{
-    color: white;
-    padding: 20px 0px 20px 10px;   
-}
+
 label{
     color: white;
 }
@@ -68,7 +65,12 @@ label{
     height: fit-content;
     
 }
-
+/* Tab2 styling */
+.tab2{
+    color: white;
+    padding: 20px 0px 20px 10px;   
+    font-size: 20px;
+}
 
 /* Error messages */
 .error{
