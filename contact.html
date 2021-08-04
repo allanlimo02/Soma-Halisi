@@ -95,10 +95,13 @@
                 <div class="form">
                   <div class="p-4">
                     <input type="text" name="NAME" id="name" placeholder="Name..." required value="">
+                    <p id="error1" class="error">This field can't be blank*</p>
                     <input type="text" name="EMAIL" id="email" placeholder="email..." required value="">
+                    <p id="error2" class="error">This field can't be blank*</p>
                   </div>
                   <textarea name="MESSAGE" id="message" placeholder="Your message..." cols="45" rows="5" required>
                 </textarea>
+                <p id="error3" class="error">This field can't be blank*</p>
                 </div>
                 <button type="submit" class="btn btn-success" onclick="validate()">Submit</button>
               </div>
