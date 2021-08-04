@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    $('#btnmain').click(function(){
+    $('#btnmain').click(function(event){
        $(".formcont").show() 
+       event.preventDefault()
     })
 
 
@@ -88,7 +89,7 @@ CheckBooks.prototype.gPublisher=function(){
 
 $(document).ready(function(){
     $("#checkvend").click(function(event){
-        event.preventDefault();
+        //event.preventDefault();
         var uName=document.getElementById("uname").value;
         var publisher1=document.getElementById("publisher").value;
         var book2=document.getElementById("book").value;
@@ -121,16 +122,37 @@ $(document).ready(function(){
                 newLoc="Invalid address"
         }
 
-        $("#outputName").text('Dear '+uName);
-        $("#outputpublisher").text('You have selected '+publisher1);
-        $("#outputtown").text('You have selected '+location3+ "  town as your current location");
-        $("#outputgenre").text('You have also selected '+book2);
-        $("#listofshops").text('We have the following shops in '+location3);
-        $("#shop1").text(newLoc.shop1);
-        $("#shop2").text(newLoc.shop2);
-        $("#shop3").text(newLoc.shop3);
-        
+        if(uName==''){
+            $('#error1').show()
+            return false;
+        }else
+        $('#error1').hide()
+        if(publisher1==''){
+            $('#error2').show()
+        }else
+        $('#error2').hide()
+        if(book2==''){
+            $('#error3').show()
+        }else
+        $('#error3').hide()
+        if(location3==''){
+            $('#error4').show()
+        }else
+            
 
+        
+        
+        $('#myForm').submit(function(event){
+            $("#outputName").text('Dear '+uName);
+            $("#outputpublisher").text('You have selected '+publisher1);
+            $("#outputtown").text('You have selected '+location3+ "  town as your current location");
+            $("#outputgenre").text('You have also selected '+book2);
+            $("#listofshops").text('We have the following shops in '+location3);
+            $("#shop1").text(newLoc.shop1);
+            $("#shop2").text(newLoc.shop2);
+            $("#shop3").text(newLoc.shop3);
+            event.preventDefault();
+        })
     });
 
 });
