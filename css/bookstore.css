@@ -17,7 +17,7 @@ body{
    color: #ffffff; 
 }
 ul li {
-    padding-right:50px;
+    padding-right:70px;
 }
   @media (min-width: 768px) {
     .news-input {
