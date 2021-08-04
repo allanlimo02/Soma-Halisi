@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+}
+.contain{
+   background: url(../assets/photo-1463320726281-696a485928c7.jpeg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   font-family: 'Gowun Batang', serif; /*Gowun Batang */
+}
+.mainer{
+    background:rgba(0, 0, 50, 0.7); 
+}
+.header-p{
+    padding-top: 100px;
+   color: #ffffff; 
+}
+ul li {
+    padding-right:70px;
+}
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+  nav{
+      background-color: #0A1F57;
+      
+  }
+  .navlink{
+    color: #f5deb3 !important;
+    padding-left: 20px;
+  }
+
+/* form section css styles */
+
+.mainrow{
+    padding-bottom: 50px;
+    
+}
+.tab1{
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 20px 0px 20px 10px;
+}
+
+label{
+    color: white;
+}
+
+.images{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+
+}
+.book-image{
+    border: 2px;
+    border-radius: 50% !important;
+}
+.description{
+    color: #ffffff;
+    border: 2px,solid ,black;
+    border-radius: 20%;
+    height: fit-content;
+    
+}
+/* Tab2 styling */
+.tab2{
+    color: white;
+    padding: 20px 0px 20px 10px;   
+    font-size: 20px;
+}
+.outputdet{
+    height: 180px;
+}
+.shops{
+    border: solid white 2px;
+    border-radius: 20px;
+    height: 230px;
+    padding-left: 20px;
+    color: green;
+    font-weight: 700;
+    
+}
+.addheigth{
+    height: 40px;
+}
+/* Error messages */
+.error{
+    color: red;
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+.footer{
+    background-color:#0A1F57 ;
+    color: #f5deb3;
+    padding-left: 10%;
+    text-align: center;
+}
+
+#fnote{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #f5deb3;
+
+}
