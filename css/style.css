@@ -191,7 +191,20 @@ nav {
   border-radius: 50%;
   border: solid 2px white;
 }
-
+/* Newsletter */
+.newslater{
+  text-align: center;
+  padding: 60px;
+}
+.newslater h1{
+  padding-bottom: 30px;
+}
+#email{
+  width: 30%;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
 /* footer styling start here */
 footer {
   text-align: center;
