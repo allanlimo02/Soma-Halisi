@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   margin-top: 110px;
+  font-family: poppins;
 }
 
 /* start of Header css */
@@ -34,6 +35,12 @@ nav {
   font-size: 50px;
   
 }
+.sltetx{
+  color: red;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+}
 /* End of Carousel css */
 
 /* Why us section start here */
@@ -41,6 +48,7 @@ nav {
   background-color: #0a1f57;
   color: white;
   text-align: center;
+  margin-top: 10px;
 }
 
 .cont {
