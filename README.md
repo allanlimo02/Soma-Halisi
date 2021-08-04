@@ -31,8 +31,8 @@ In this project, we used the following technologies:
 Incase you need help in this project, kindly contact the developers via:
 * Allanlimo02@gmail.com
 * edwinkolem5@gmail.com
-* 
-* 
+* calebkimutai97@gmail.com 
+* tonuikipkorir1@gmail.com
 
 ### License
 [MIT License](https://choosealicense.com/licenses/mit/) ©2021
