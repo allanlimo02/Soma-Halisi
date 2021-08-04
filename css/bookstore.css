@@ -70,8 +70,12 @@ label{
 }
 
 
-
-
+/* Error messages */
+.error{
+    color: red;
+    display: none;
+    
+}
 
 
 

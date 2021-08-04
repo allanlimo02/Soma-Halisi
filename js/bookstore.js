@@ -98,15 +98,58 @@ $(document).ready(function(){
         var loccationPlace= newDetails.glocation();
         var publishers=newDetails.gPublisher();
         
-
+        switch (location3){
+            case 'Nairobi':
+                newLoc=Nairobi;
+                break;
+            case 'Mombasa':
+                newLoc=mombasa;
+                break
+            case 'Nakuru':
+                 newLoc=nakuru;
+                 break;
+            case 'Kericho':
+                 newLoc=kericho;
+               break;
+            case 'Eldoret':
+                newLoc=eldoret;
+                break;
+            case 'Nyeri':
+                    newLoc=nyeri;
+                    break;
+            default:
+                newLoc="Invalid address"
+        }
 
         $("#outputName").text('Dear '+uName);
         $("#outputpublisher").text('You have selected '+publisher1);
-        $("#outputtown").text('You have selected '+location3+ "  town");
-        $("#outputgenre").text('You have selected '+book2);
+        $("#outputtown").text('You have selected '+location3+ "  town as your current location");
+        $("#outputgenre").text('You have also selected '+book2);
+        $("#listofshops").text('We have the following shops in '+location3);
+        $("#shop1").text(newLoc.shop1);
+        $("#shop2").text(newLoc.shop2);
+        $("#shop3").text(newLoc.shop3);
         
 
     });
 
 });
 });
+
+
+// form Validation
+function validateForm(){
+    var uName=document.getElementById("").value;
+
+    if(uName=="" && uName.length<3){
+        alert("Enter a Valid name!")
+    }
+    else if(myForm.publisher.value==""){
+        alert("Kindly select a Publisher to proceed!")
+    }
+    else if(myForm.book.value==""){
+        alert("kindly select the Book name!")
+    } else if(myForm.location.value==""){
+
+    }
+}

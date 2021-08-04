@@ -51,10 +51,11 @@
             <div class="row mainrow">
                 <div class="col-md-6 tab1">
                     <!-- Start of form -->
-                    <form>
+                    <form id="myForm">
                         <!-- Name -->
                         <label class="col-sm-2 col-form-label" for="">Your Name:</label>
-                        <input type="text" id="uname" class="form-control" placeholder="Input your name"><br><br>
+                        <input type="text" id="uname" class="form-control" placeholder="Input your name">
+                        <p class="error" id="error1">This field cant be blank *</p><br><br>
                         <!-- Publisher -->
                         <label class="col-sm-2 col-form-label" for="">Publishers:</label>
                         <select name="" class="form-select" id="publisher">
@@ -64,10 +65,11 @@
                             <option >WordAlive Publishers Limited</option>
                             <option >kenya literature bureau</option>
                         </select> 
+                        <p class="error" id="error1">This field cant be blank *</p>
                         <!-- button -->
                         <br><br>
 
-                    <button type="button" id="btnmain" class="btn btn-secondary">View Books</button> <br> <br>
+                    <button type="submit" id="btnmain" class="btn btn-secondary">View Books</button> <br> <br>
                         <!-- Books -->
                       <div class="formcont" style="display: none;">
                         <label class="col-sm-2 col-form-label" for=""> Books: </label>
@@ -78,7 +80,8 @@
                             <option >magazines</option>
                             <option >newspapers</option>
     
-                        </select> <br> <br>
+                        </select>
+                        <p class="error" id="error1">This field cant be blank *</p><br><br>
                         <!-- Location -->
                         <label class="col-sm-2 col-form-label" for="">Location: </label>
                         <select name="" class="form-select" id="location">
@@ -90,7 +93,10 @@
                             <option >Eldoret</option>
                             <option >Nyeri</option>
     
-                        </select><br><br>
+                        </select>
+                        <p class="error" id="error1">This field cant be blank *</p>
+                        <br><br>
+
                         <a href="#" id="checkvend" class="btn-primary btn" onclick="details()"> Check Verified vendors</a>
                       </div>
                      
@@ -107,6 +113,11 @@
                    <p id="outputpublisher"></p>
                    <p id="outputgenre"></p>
                    <p id="listofshops"></p>
+                   <p id="shop1"></p>
+                   <p id="shop2"></p>
+                   <p id="shop3"></p>
+                   
+                   
 
                 
                 
