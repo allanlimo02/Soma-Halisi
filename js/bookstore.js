@@ -7,9 +7,9 @@ $(document).ready(function(){
 
     
     var Nairobi={
-        shop1:'Jabavu Book shop',
-        shop2:'Mboya book center',
-        shop3:'Kenvy Book store'
+        shop1:'Jabavu Book shop - Moi Avenue Pioneer Building',
+        shop2:'Mboya book center - Tom Mboya street - Imenti House',
+        shop3:'Kenvy Book store Kenyatta avenue- Standard buildong'
     }
     var mombasa={
         shop1:' Bakari shop',
@@ -27,7 +27,7 @@ $(document).ready(function(){
         shop3:'Chepbilat Book store'
     }
     var kericho={
-        shop1:'Koiywa Book shop',
+        shop1:'Koiywa Book shop - ',
         shop2:'Kipchimchim book center',
         shop3:'Ainamoi Book store'
     }
