@@ -74,14 +74,22 @@ label{
 }
 .outputdet{
     height: 180px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 .shops{
     border: solid white 2px;
     border-radius: 20px;
     height: 230px;
     padding-left: 20px;
-    color: green;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
     font-weight: 700;
+    background-color: rgb(255, 255, 255,0.5);
     
 }
 .addheigth{
