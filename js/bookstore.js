@@ -12,29 +12,29 @@ $(document).ready(function(){
         shop3:'Kenvy Book store Kenyatta avenue- Standard buildong'
     }
     var mombasa={
-        shop1:' Bakari shop Nyali mall',
+        shop1:' Bakari shop - Nyali mall',
         shop2:'Taqviw book center - Beach front mall',
         shop3:'Buhari Book store -Mama Ngina drive'
     }
     var nakuru={
         shop1:'Kamau Book shop - Kenyatta avenue',
-        shop2:'Njugunas book center Kombucha Complex',
-        shop3:'Nakuru Book store Moi drive'
+        shop2:'Njugunas book center - Kombucha Complex',
+        shop3:'Nakuru Book store - Moi drive'
     }
     var eldoret={
-        shop1:'Ndalat Book shop KVDA plaza',
+        shop1:'Ndalat Book shop - KVDA plaza',
         shop2:'Moiben book center - Daima Towers',
-        shop3:'Chepbilat Book store Barngrtuny Plaza'
+        shop3:'Chepbilat Book store - Barngrtuny Plaza'
     }
     var kericho={
         shop1:'Koiywa Book shop - Green mall ',
         shop2:'Kipchimchim book center - Kericho Complex',
-        shop3:'Ainamoi Book store Samoei Street'
+        shop3:'Ainamoi Book store - Samoei Street'
     }
     var nyeri={
-        shop1:'Mukurwe-ini Book shop Nyeri Complex',
-        shop2:'Kagumo book center Total drive-inn',
-        shop3:'Kagochi Book store Bogota Street'
+        shop1:'Mukurwe-ini Book shop - Nyeri Complex',
+        shop2:'Kagumo book center - Total drive-inn',
+        shop3:'Kagochi Book store - Bogota Street'
     }
  
 
@@ -147,7 +147,6 @@ $(document).ready(function(){
             $("#outputName").text('Dear '+uName);
             $("#outputtown").text('You have selected '+location3+ "  town as your current location");
             $("#outputpublisher").text('Thank you for showing interest in '+book2+' from '+publisher1);    
-            $("#outputgenre").text('You have also selected '+book2);
             $("#listofshops").text('We have the following Verified shops in '+location3);
             $("#shop1").text("1: "+newLoc.shop1);
             $("#shop2").text("2: "+newLoc.shop2);
