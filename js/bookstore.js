@@ -12,29 +12,29 @@ $(document).ready(function(){
         shop3:'Kenvy Book store Kenyatta avenue- Standard buildong'
     }
     var mombasa={
-        shop1:' Bakari shop',
-        shop2:'Taqviw book center',
-        shop3:'Buhari Book store'
+        shop1:' Bakari shop Nyali mall',
+        shop2:'Taqviw book center - Beach front mall',
+        shop3:'Buhari Book store -Mama Ngina drive'
     }
     var nakuru={
-        shop1:'Kamau Book shop',
-        shop2:'Njugunas book center',
-        shop3:'Nakuru Book store'
+        shop1:'Kamau Book shop - Kenyatta avenue',
+        shop2:'Njugunas book center Kombucha Complex',
+        shop3:'Nakuru Book store Moi drive'
     }
     var eldoret={
-        shop1:'Ndalat Book shop',
-        shop2:'Moiben book center',
-        shop3:'Chepbilat Book store'
+        shop1:'Ndalat Book shop KVDA plaza',
+        shop2:'Moiben book center - Daima Towers',
+        shop3:'Chepbilat Book store Barngrtuny Plaza'
     }
     var kericho={
-        shop1:'Koiywa Book shop - ',
-        shop2:'Kipchimchim book center',
-        shop3:'Ainamoi Book store'
+        shop1:'Koiywa Book shop - Green mall ',
+        shop2:'Kipchimchim book center - Kericho Complex',
+        shop3:'Ainamoi Book store Samoei Street'
     }
     var nyeri={
-        shop1:'Mukurwe-ini Book shop',
-        shop2:'Kagumo book center',
-        shop3:'Kagochi Book store'
+        shop1:'Mukurwe-ini Book shop Nyeri Complex',
+        shop2:'Kagumo book center Total drive-inn',
+        shop3:'Kagochi Book store Bogota Street'
     }
  
 
