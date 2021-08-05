@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    font-family: poppins;
 }
 .contain{
    background: url(../assets/photo-1463320726281-696a485928c7.jpeg);
@@ -7,7 +8,7 @@ body{
    background-attachment: fixed;
    background-size: cover;
    background-position: center;
-   font-family: 'Gowun Batang', serif; /*Gowun Batang */
+   
 }
 .mainer{
     background:rgba(0, 0, 50, 0.7); 
@@ -18,6 +19,7 @@ body{
 }
 ul li {
     padding-right:70px;
+    font-size: 26px;
 }
   @media (min-width: 768px) {
     .news-input {
@@ -31,6 +33,7 @@ ul li {
   .navlink{
     color: #f5deb3 !important;
     padding-left: 20px;
+    font-size: 26px;
   }
 
 /* form section css styles */
