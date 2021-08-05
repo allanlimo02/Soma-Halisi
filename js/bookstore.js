@@ -145,10 +145,10 @@ $(document).ready(function(){
         
         $('#myForm').submit(function(event){
             $("#outputName").text('Dear '+uName);
-            $("#outputpublisher").text('You have selected '+publisher1);
             $("#outputtown").text('You have selected '+location3+ "  town as your current location");
+            $("#outputpublisher").text('Thank you for showing interest in '+book2+' from '+publisher1);    
             $("#outputgenre").text('You have also selected '+book2);
-            $("#listofshops").text('We have the following shops in '+location3);
+            $("#listofshops").text('We have the following Verified shops in '+location3);
             $("#shop1").text("1: "+newLoc.shop1);
             $("#shop2").text("2: "+newLoc.shop2);
             $("#shop3").text("3: "+newLoc.shop3);
